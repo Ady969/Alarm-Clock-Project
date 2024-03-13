@@ -1,7 +1,111 @@
-h1 {
-  font-size: 100px;
-  text-align: center;
-  font-family: Verdana;
-  border: 2px solid black;
-  cursor: pointer;
-}
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+    
+    
+    
+    .container{
+        background-color: #e5e5fd;
+        min-height: 100vh;
+        border: 10px solid #1d1e4c;
+
+        
+    }
+
+    .content{
+        max-width: 900px;
+        margin: 0 auto;
+        
+    }
+
+    .top_section{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    
+    }
+    .top_section h1{
+        font-size: 50px;
+        font-weight: bold;
+        color: #1d1e4c;
+        text-transform: uppercase;
+        cursor: pointer;
+
+    }
+
+    .top_section h4{
+        font-size: 30px;
+        text-align: end;
+        cursor: pointer;
+
+    }
+
+    .image_container{
+        border-radius: 50%;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .image_container,img {
+        width: 300px;
+        height: 320px;
+
+    }
+    .about_sec h2{
+        /* text-align: center; */
+        font-size: 70px;
+        font-weight: 400;
+        margin-bottom:20px;
+    }
+
+    .about_sec{
+        margin-top: 60px;
+        /* text-align: center; */
+
+    }
+
+    .about_sec p{
+        /* margin-top: 25; */
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 1.5px;
+        text-align: justify;
+
+
+    }
+    .Careers {
+        line-height: 50px;
+        margin: 50px 0;
+    
+    }
+    
+    .Careers h3{
+        font-size: 30px;
+        
+    }
+
+    .Careers ul{
+        line-height: 40px;
+        margin-left: 50px;
+        
+
+    }
+    .Careers li{
+        margin-bottom: 10px;
+        
+    }
+
+    footer{
+        margin: 50px 0; 
+
+
+    }
+
+    footer p{
+        text-align: end;
+    }
